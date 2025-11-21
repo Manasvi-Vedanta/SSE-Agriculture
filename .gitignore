@@ -1,0 +1,86 @@
+# Environment Variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Model Files (too large for git)
+*.h5
+*.keras
+*.weights
+*.pb
+plant_disease_model.h5
+
+# Training Outputs
+checkpoints/
+logs/
+training_history.png
+*.png
+*.jpg
+*.jpeg
+
+# Audio Files
+*.wav
+*.mp3
+*.ogg
+*.m4a
+temp_audio/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dataset (already cloned separately)
+PlantDoc-Dataset/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation (keep only README.md)
+CHECKLIST.md
+PROJECT_SUMMARY.md
+QUICKSTART.md
+VISUAL_GUIDE.md
+LONG_PATH_SOLUTION.md
+
+# Batch/Shell Scripts
+*.bat
+*.ps1
+
+# Temporary Files
+*.log
+*.tmp
+temp/
+tmp/
